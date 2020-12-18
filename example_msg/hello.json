@@ -1,0 +1,16 @@
+{
+    "EmployeeInfo": {
+        "ID": "uuid4",
+         "Name": "name",
+          "Contact": {
+              "Email": "email",
+              "Phone Number": "phone_number"
+              },
+              "Location": {
+                  "Country Code": "country_code",
+                  "City": "city",
+                  "Country": "country",
+                  "Postal Code": "postalcode",
+                  "Address": "street_address"}
+                }
+}
