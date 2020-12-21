@@ -13,6 +13,8 @@ def send_message(client, message):
     client -- the eventhub client
     message -- the message to send
     """
+
+    print(f'sending message: \n {message}')
     event_data_batch = client.create_batch()  # Create a batch of eventdata to send
     event_data_batch.add(EventData(message))  # Add message to the batch
     client.send_batch(event_data_batch)  # Send the batch
@@ -27,7 +29,7 @@ def generate_fake_messages(client, msg_count):
     # Set number of messages to send
 
     i = 0  # initiate counter
-    while i < msg_count:
+    while i <= msg_count:
         print(f'sending msg number {i}')
         i+=1
         send_message(client, fake_message())  # send a fake message to eventhub
