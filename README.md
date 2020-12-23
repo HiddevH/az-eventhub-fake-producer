@@ -9,8 +9,9 @@ You can also define your own schema using the example's logic and the Joke2k's f
 
 ## How to:
 create dotenv variables for:
-EVENTHUB_CONNECTION_STR
-EVENTHUB_NAME
+`EVENTHUB_CONNECTION_STR`
+
+`EVENTHUB_NAME`
 
 set `num_of_messages` to desired fake message count to send to EventHub
 
