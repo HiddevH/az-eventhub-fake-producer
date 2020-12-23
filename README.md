@@ -1,6 +1,5 @@
-![Fake Producer](logo.png)
-
 # AZ Eventhub Fake Producer
+<img src="logo.png" width="100">
 Send over fake messages over to the EventHub using a pre-defined schema.
 
 As an example, main.py imports the schema:
