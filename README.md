@@ -1,3 +1,5 @@
+![Fake Producer](logo.png)
+
 # AZ Eventhub Fake Producer
 Send over fake messages over to the EventHub using a pre-defined schema.
 
